@@ -70,13 +70,12 @@
   float: left;
 
 .main-header{
-  background-color: #ffffff;
   width: calc(100vw - 300px);
   height: 100px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
-  border-bottom: soid 1px #eee;
+  border-bottom: solid 1px #eee;
   overflow: scroll;
 
   &__left-box {
@@ -125,12 +124,12 @@
 
   .message{
     padding-bottom: 40px;
-    &__upper-info {
+    &__upper-message {
       display: flex;
       margin-bottom: 10px;
-      &__talker {
+      &__user-name {
         font-size: 16px;
-        color: #333333;
+        color: #434a54;
         font-weight: bold;
       }
       &__data {
