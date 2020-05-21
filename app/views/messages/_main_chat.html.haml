@@ -13,16 +13,6 @@
         Edit
   .messages
     = render @messages
-    .message
-      .message__upper-info
-        .message__upper-info__talker
-        .message__upper-info__data
-      %p.message__text
-    .message
-      .message__upper-info
-        .message__upper-info__talker
-        .message__upper-info__data
-      %p.message__text
 
   .form
     = form_for [@group, @message], html: {class: "Form"} do |f|
